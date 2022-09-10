@@ -5,3 +5,4 @@ function loadData (){
   .then(response => response.json())
   .then(json => console.log(json.title))
 }
+
